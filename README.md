@@ -21,7 +21,7 @@ lightweight boilerplate for back-end API development with Typescript.
 ### todos:
 
 - [x] <del>high speed builder for development</del> 
-- [x] <del>ready to go typescript builder with minifier</del>
+- [x] <del>ready to go typescript optimized builder for production</del>
 - [ ] unit testing ready
 
 
