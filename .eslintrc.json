@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true,
+        "browser": false,
         "es6": true,
         "node": true
     },
@@ -23,5 +23,13 @@
         "@typescript-eslint"
     ],
     "rules": {
-    }
+    },
+    "overrides": [
+        {
+          "files": ["*.js"],
+          "rules": {
+            "@typescript-eslint/no-var-requires": "off"
+          }
+        }
+    ]
 }
