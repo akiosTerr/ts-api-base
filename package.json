@@ -8,12 +8,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "sucrase-node src/app.ts",
+    "start": "sucrase-node dist/app.js",
     "dev": "nodemon src/index.ts",
-    "prod": "node dist/bundle.min.js",
-    "build": "tsc && yarn minify",
+    "build": "tsc -b && yarn minify",
     "minify": "uglifyjs --compress --mangle --output dist/bundle.min.js -- dist/index.js",
-    "esbuild": "esbuild --bundle --minify --loader=ts --platform=node <src/index.ts> dist/index.js"
+    "esbuild": "esbuild --bundle --minify --external:express --loader=ts --platform=node <src/app.ts> dist/app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

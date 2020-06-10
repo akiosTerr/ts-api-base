@@ -1,14 +1,17 @@
-const base = {
-	fn: (name: string, age: number) => {
-		console.log(name);
-		console.log(age);
-	},
-	zn: (yeper: number) => {
-		return yeper + 'yapper';
-	},
-	xn: (x: number) => {
-		return x + 10000;
-	},
+import express from 'express';
+
+const createServer = (port: number, root: string) => {
+	const app = express();
+	app.use(express.json());
+	app.get('/', (req, res) => {
+		res.json({
+			main: root,
+		});
+	});
+	app.listen(port, () => {
+		console.log(`listening on ${port}`);
+	});
+	return app;
 };
 
-module.exports = base;
+export default createServer;

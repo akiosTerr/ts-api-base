@@ -1,4 +1,5 @@
-import base from '../dist/bundle.min';
+// import createServer from '../dist/index';
+import createServer from './index';
+// const createServer = require('./index');
 
-console.log(base.zn(123));
-base.fn('hello', 'world');
+createServer(4444, 'hello world');
