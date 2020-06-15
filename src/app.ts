@@ -1,5 +1,3 @@
-// import createServer from '../dist/index';
-import createServer from './index';
-// const createServer = require('./index');
+import createServer from './server';
 
 createServer(4444, 'hello world');
