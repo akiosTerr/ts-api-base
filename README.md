@@ -1,4 +1,4 @@
-# api-base
+# ts-api-base
 ### Typescript API Boilerplate for Node.js
 
 The goal of this repo is to be a plain and simple, 
