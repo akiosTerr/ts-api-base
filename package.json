@@ -10,6 +10,7 @@
   "scripts": {
     "start": "sucrase-node dist/app.js",
     "test": "jest",
+    "test:watch": "jest --watch",
     "dev": "nodemon src/index.ts",
     "build": "tsc -b && yarn minify",
     "minify": "uglifyjs --compress --mangle --output dist/bundle.min.js -- dist/index.js",
