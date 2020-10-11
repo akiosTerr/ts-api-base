@@ -8,6 +8,7 @@ lightweight boilerplate for back-end API development with Typescript.
 * **Sucrase**: high speed typescript build for development
 * **TSC & Uglify-js**: Typescript builder & minifier for production
 * **Eslint & Prettier**: Typescrit linting and code enforcing
+* **Jest & ts-jest**: For testing with Typescript
 
 
 ## Dependencies (the ones that I use the most): 
@@ -20,9 +21,13 @@ lightweight boilerplate for back-end API development with Typescript.
 
 ### todos:
 
-- [x] <del>high speed builder for development</del> 
-- [x] <del>ready to go typescript optimized builder for production</del>
-- [ ] unit testing ready
+- [x] <del>high speed builder for development </del> 
+
+- [x] <del>ready to go typescript optimized builder for production </del>
+
+- [x] <del>unit testing ready </del>
+
+- [ ] Redux boilerplate
 
 
 _please give your suggestions for improving the repo 😊_
