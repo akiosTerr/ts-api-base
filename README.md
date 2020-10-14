@@ -27,7 +27,5 @@ lightweight boilerplate for back-end API development with Typescript.
 
 - [x] <del>unit testing ready </del>
 
-- [ ] Redux boilerplate
-
 
 _please give your suggestions for improving the repo 😊_
