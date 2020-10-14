@@ -27,5 +27,7 @@ lightweight boilerplate for back-end API development with Typescript.
 
 - [x] <del>unit testing ready </del>
 
+- [ ] API auth Boilerplate
+
 
 _please give your suggestions for improving the repo 😊_
