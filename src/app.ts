@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+require('dotenv').config()
+
 
 const port = process.env.PORT || 4444;
 
